@@ -1,13 +1,13 @@
-import org.example.Condey;
-import org.junit.Test;
+import geometry.Condey;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-public class Test_condey {
+public class TestCondey {
 
     @Test
     public void testConstruction(){
         Assertions.assertDoesNotThrow(() -> {
-            org.example.Condey condey = new Condey(20, 30, "heat");
+            Condey condey = new Condey(20, 30, "heat");
         });
     }
 

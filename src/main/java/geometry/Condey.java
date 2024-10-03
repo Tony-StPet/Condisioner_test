@@ -1,4 +1,4 @@
-package org.example;
+package geometry;
 
 public class Condey {
     public int t1, t2;
